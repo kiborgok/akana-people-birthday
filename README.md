@@ -2,7 +2,7 @@
 
 #### Version v1.0.0
 #### By Alex Kiborgok
-### Portfolio built with HTML, CSS, Bootstrap, and JavaScript
+### Website built with HTML, CSS, Bootstrap, and JavaScript
 
 ## Table of Contents
 
