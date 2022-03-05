@@ -44,7 +44,7 @@ let generateAkanName = e => {
         let daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
         for (let i = 0; i < daysOfTheWeek.length; i++){
             if (birthday.getDay() === i) {
-                document.getElementById("akan-name").textContent = `Born on ${daysOfTheWeek[i]} your Akan name is ${akanNameValue}`;
+                document.getElementById("akan-name").textContent = `Born on ${daysOfTheWeek[i]}, your Akan name is ${akanNameValue}`;
                 document.getElementById("akan-name").style.backgroundColor = "red"
                 //Clear form inputs after submit
                 document.querySelector("#gender").value = "none";
