@@ -56,7 +56,7 @@
 
 * MDN
 
-#### Link to live site: 
+#### Link to live site: https://kiborgok.github.io/akana-people-birthday/
 
 ## Licence
 
