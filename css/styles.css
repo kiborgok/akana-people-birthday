@@ -31,3 +31,13 @@ body::before{
 .btn:hover{
     background-color: goldenrod;
 }
+
+@media only screen and (max-width: 500px){
+    .container{
+        width: 100%!important;
+        align-items: center!important;
+    }
+    .w-50{
+        width: 95%!important;
+    }
+}
