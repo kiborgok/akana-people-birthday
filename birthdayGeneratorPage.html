@@ -17,8 +17,17 @@
     <div
       class="container w-75 d-flex align-items-center justify-content-center flex-column h-100"
     >
-      <form class="">
+      <form class="w-50">
         <h2 class="mb-4">Check Your Akana Name</h2>
+        <div class="mb-3">
+          <label for="date" class="form-label">Birthday</label>
+          <input
+            type="date"
+            class="form-control form-control-lg"
+            id="date"
+            aria-describedby="emailHelp"
+          />
+        </div>
         <div class="mb-3">
           <select id="gender" class="form-select form-select-lg">
             <option value="none" selected disabled hidden>
@@ -28,18 +37,9 @@
             <option value="female">Female</option>
           </select>
         </div>
-        <div class="mb-3">
-          <label for="date" class="form-label">Birthday Date</label>
-          <input
-            type="date"
-            class="form-control form-control-lg"
-            id="date"
-            aria-describedby="emailHelp"
-          />
-        </div>
-        <input type="button" class="btn btn-primary btn-lg" value="Submit" />
+        <input type="button" id="submit" class="btn btn-primary btn-lg" value="Submit" />
       </form>
-      <div class="mt-4" id="akana-name"></div>
+      <div class="mt-4" id="akan-name"></div>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
@@ -51,5 +51,6 @@
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
+    <script src="./script.js"></script>
   </body>
 </html>
