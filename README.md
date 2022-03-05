@@ -36,18 +36,18 @@
 
 ## Behaviour Driven Development
 1. Form for Date and Gender input
-    . INPUT: "User birthday"
-    . INPUT: "User gender"
-    . OUTPUT: "User akan name"
+    * INPUT: "User birthday"
+    * INPUT: "User gender"
+    * OUTPUT: "User akan name"
 2. Error message for Date input
-    . INPUT: ""
-    . OUTPUT: "Alert error"
+    * INPUT: ""
+    * OUTPUT: "Alert error"
 3. Error message for Gender input
-    . INPUT: "none"
-    . OUTPUT: "Alert error"
+    * INPUT: "none"
+    * OUTPUT: "Alert error"
 4. Reset form inputs
-    . INPUT: Click submit button
-    . OUTPUT: Clear inputs
+    * INPUT: Click submit button
+    * OUTPUT: Clear inputs
 
 ## Reference
 * W3.schools.com
