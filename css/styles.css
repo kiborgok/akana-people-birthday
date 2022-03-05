@@ -1,0 +1,36 @@
+body{
+    position: relative;
+    box-sizing: border-box;
+    height: 100vh;
+    color: gold;
+    background: url('../images/1497_BIRTHDAY.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+body::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.container{
+    opacity: 0.9;
+}
+.container-md, .container-sm{
+    width: 75%!important;
+}
+.para{
+    font-size: 20px;
+    color: white;
+}
+.btn{
+    background-color: gold;
+    border: none;
+}
+
+.btn:hover{
+    background-color: goldenrod;
+}
