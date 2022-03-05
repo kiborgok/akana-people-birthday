@@ -19,9 +19,6 @@ body::before{
 .container{
     opacity: 0.9;
 }
-.container-md, .container-sm{
-    width: 75%!important;
-}
 .para{
     font-size: 20px;
     color: white;
