@@ -3,7 +3,7 @@ body{
     box-sizing: border-box;
     height: 100vh;
     color: gold;
-    background: url('../images/1497_BIRTHDAY.jpg');
+    background: url('../images/img.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -30,6 +30,12 @@ body::before{
 
 .btn:hover{
     background-color: goldenrod;
+}
+
+#akana-name{
+    font-size: 22px;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 @media only screen and (max-width: 500px){
