@@ -1,5 +1,5 @@
 # Akan name generator
-![alt text](https://github.com/kiborgok/akana-people-birthday/blob/[main]/images/screen.png?raw=true)
+![alt text](https://github.com/kiborgok/akana-people-birthday/blob/main/images/screen.png?raw=true)
 #### Version v1.0.0
 #### By Alex Kiborgok
 ### Website built with HTML, CSS, Bootstrap, and JavaScript
